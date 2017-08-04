@@ -40,7 +40,7 @@ Diese sind zu beachten:
 	Das neue Passwort darf nicht weniger als 6 Zeichen beinhalten. 
 	Unit-Tests müssen geschrieben werden. Du kannst dir selber entscheiden, ob Test-first oder Test-nach.
 	
-Ziel der Übung B: Events filtern, die über gleiche DomainObjekte bzw. Aggregaten operieren. Das Aggregate-Konzept verstehen. Ein Gefühl für Platzieren von Business Regeln bekommen.
+Ziel der Übung B: Events filtern, die über gleiche DomainObjekte bzw. Aggregaten operieren. Das Aggregate-Konzept verstehen. Ein Gefühl für Platzieren von Business Regeln und Wiederherstellen den Zustand aus Events bekommen.
 
 ## Übung C: 
 Implementiere eine andere Komponente, die Mails an Administrator schickt wenn ein neuer Benutzer registriert wurde.
