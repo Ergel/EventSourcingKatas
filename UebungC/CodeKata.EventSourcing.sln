@@ -2,14 +2,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.BenutzerLoginService", "UebungA\BenutzerLoginService\CodeKata.EventSourcing.BenutzerLoginService.csproj", "{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Test.BenutzerLoginService", "UebungA\Test.BenutzerLoginService\CodeKata.EventSourcing.Test.BenutzerLoginService.csproj", "{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenbeschreibung", "Aufgabenbeschreibung", "{D5F62C49-3770-42A4-8848-A4212621A0B2}"
 	ProjectSection(SolutionItems) = preProject
-		ÃœbungA.txt = ÃœbungA.txt
+		ÜbungC.txt = ÜbungC.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.BenutzerAnmeldungService", "BenutzerAnmeldungService\CodeKata.EventSourcing.BenutzerAnmeldungService.csproj", "{59AE057A-8B36-46F1-9290-31434B8D0478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.BenutzerAdministrationService", "BenutzerAdministrationService\CodeKata.EventSourcing.BenutzerAdministrationService.csproj", "{54FEE4BB-0E26-4C3D-BDDA-EAAC88F28DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Core", "Core\CodeKata.EventSourcing.Core.csproj", "{EFBAF364-C6E9-49EE-80D7-F931AB49C106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Test.BenutzerAnmeldungService", "Test.BenutzerAnmeldungService\CodeKata.EventSourcing.Test.BenutzerAnmeldungService.csproj", "{019BCA62-4CAB-4D70-865F-C4AEDFCC4066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Test.BenutzerAdministrationService", "Test.BenutzerAdministrationService\CodeKata.EventSourcing.Test.BenutzerAdministrationService.csproj", "{725CFE1E-F8B3-4104-8DBB-F44E3767DB57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +23,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AE057A-8B36-46F1-9290-31434B8D0478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AE057A-8B36-46F1-9290-31434B8D0478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AE057A-8B36-46F1-9290-31434B8D0478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AE057A-8B36-46F1-9290-31434B8D0478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FEE4BB-0E26-4C3D-BDDA-EAAC88F28DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FEE4BB-0E26-4C3D-BDDA-EAAC88F28DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FEE4BB-0E26-4C3D-BDDA-EAAC88F28DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FEE4BB-0E26-4C3D-BDDA-EAAC88F28DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBAF364-C6E9-49EE-80D7-F931AB49C106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBAF364-C6E9-49EE-80D7-F931AB49C106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBAF364-C6E9-49EE-80D7-F931AB49C106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBAF364-C6E9-49EE-80D7-F931AB49C106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019BCA62-4CAB-4D70-865F-C4AEDFCC4066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019BCA62-4CAB-4D70-865F-C4AEDFCC4066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019BCA62-4CAB-4D70-865F-C4AEDFCC4066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019BCA62-4CAB-4D70-865F-C4AEDFCC4066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725CFE1E-F8B3-4104-8DBB-F44E3767DB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725CFE1E-F8B3-4104-8DBB-F44E3767DB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725CFE1E-F8B3-4104-8DBB-F44E3767DB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725CFE1E-F8B3-4104-8DBB-F44E3767DB57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
