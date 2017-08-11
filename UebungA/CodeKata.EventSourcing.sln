@@ -1,16 +1,15 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.BenutzerLoginService", "UebungA\BenutzerLoginService\CodeKata.EventSourcing.BenutzerLoginService.csproj", "{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Test.BenutzerLoginService", "UebungA\Test.BenutzerLoginService\CodeKata.EventSourcing.Test.BenutzerLoginService.csproj", "{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aufgabenbeschreibung", "Aufgabenbeschreibung", "{D5F62C49-3770-42A4-8848-A4212621A0B2}"
 	ProjectSection(SolutionItems) = preProject
-		ÜbungA.txt = ÜbungA.txt
+		UebungA.txt = UebungA.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.BenutzerLoginService", "BenutzerLoginService\CodeKata.EventSourcing.BenutzerLoginService.csproj", "{7AEFA388-5595-4E5D-8B45-EFE8893B4ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.EventSourcing.Test.BenutzerLoginService", "Test.BenutzerLoginService\CodeKata.EventSourcing.Test.BenutzerLoginService.csproj", "{2CC6ED16-002B-4655-BA67-2C4041EDB8DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
