@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/ShortcutToRunTests/@EntryValue">Global::Alt+T</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/ShortcutToSwitchBetweenFiles/@EntryValue">Global::Alt+T</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestClassSuffix/@EntryValue">Test</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestingAttributeText/@EntryValue">TestClass,TestMethod,Test,Fact,TestFixture</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestProjectToCodeProjectNameSpaceRegEx/@EntryValue">^(.*)\.Test(\..*)$</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/UnitTestFileTemplateName/@EntryValue">Test Class</s:String></wpf:ResourceDictionary>
