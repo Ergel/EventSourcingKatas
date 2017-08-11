@@ -1,14 +1,14 @@
 Folgende Anforderung muss implementiert werden:
 
 Nach 3 fehlgeschlagene Loginversuchen muss der Benutzer gesperrt werden.
-Wenn der Benutzername ein vorhandenem enutzer gehört, muss er per Mail über die Sperre informiert werden.
+Wenn der Benutzername ein vorhandenem enutzer gehÃ¶rt, muss er per Mail Ã¼ber die Sperre informiert werden.
 
 Diese sind zu beachten: 
-Unit-Tests müssen geschrieben werden. Du kannst dir selber entscheiden, ob Test-first oder Test-nach.
+Unit-Tests mÃ¼ssen geschrieben werden. Du kannst dir selber entscheiden, ob Test-first oder Test-nach.
 Diskutiere ob Sperren-Logik bei der Agregate Klasse oder in einer Serviceklasse gekapselt werden soll.
 Das Modul zum Schicken von Mails muss in einem separaten Modul implementiert werden.
-Du kannst dafür BenutzerAdministrationService nutzen. Diese beide Modulen müssen entkoppelt bleiben.
+Du kannst dafÃ¼r BenutzerAdministrationService nutzen. Diese beide Modulen mÃ¼ssen entkoppelt bleiben.
 
 
-Ziel der Übung B: Benachrichtigungen zwischen Modulen verstehen. Ein Gefühl für das Handling von Events und Sychronizierung von Zustand der Objekte bekommen.
-Vielleicht auch Gedanken über BodundedContext.
+Ziel der Ãœbung C: Benachrichtigungen zwischen Modulen verstehen. Ein GefÃ¼hl fÃ¼r das Handling von Events und Sychronizierung von Zustand der Objekte bekommen.
+Vielleicht auch Gedanken Ã¼ber BodundedContext.
